@@ -28,7 +28,7 @@ body {
 }
 h1 {
     position:absolute;
-    top:15%;
+    top:30%;
     width:100%;
     color: white;
     font-size: 120%;
@@ -38,7 +38,7 @@ h1 {
 
 h2 {
     position:absolute;
-    top:20%;
+    top:40%;
     width:100%;
     text-align: center;
     color: #FFFFFF;
@@ -48,7 +48,7 @@ h2 {
 
 h3 {
     position:absolute;
-    top:55%;
+    top:600%;
     width:100%;
     color: white;
     font-size: 120%;
