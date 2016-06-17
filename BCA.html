@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
@@ -8,57 +9,68 @@
     <meta charset="UTF-8">
     <title>Bergen County Academies</title>
 </head>
+
 <body class="news">
 
-<header>
-    <div class="nav" width=2%>
-        <ul class=slideInDown>
-            <div class="logo">
-                <li><b>Bergen</b> County Academies</li>
-            </div>
-            <li class="Home"><a href="#">Home</a></li>
-            <li class="About"><a href="#">About</a></li>
-            <li class="Students"><a href="#">Students</a></li>
-            <li class="contact"><a href="#">Contact</a></li>
-        </ul>
-    </div>
+    <header>
+        <div class="nav" width=2%>
+            <ul class=slideInDown>
+                <div class="logo">
+                    <li><b>Bergen</b> County Academies</li>
+                </div>
+                <li class="Home"><a href="#">Home</a></li>
+                <li class="About"><a href="#">About</a></li>
+                <li class="Students"><a href="#">Students</a></li>
+                <li class="contact"><a href="#">Contact</a></li>
+            </ul>
+        </div>
 
-    <div class="BergenOne" >
-        <img class="mySlides" src = "Pictures/Copy of 06_O3_DSC_8248 music orchestra.jpg"/>
+        <div class="BergenOne">
+            <img class="mySlides" src="Pictures/Copy of 06_O3_DSC_8248 music orchestra.jpg" />
             <h1>WELCOME TO THE</h1>
             <h2><b>BERGEN COUNTY ACADEMIES</b></h2>
             <h3>WHERE THE BRIGHTEST CAN SHINE!</h3>
-        <section id="section03" class="demo">
-            <a href="#Accolades"><span></span></a>
-        </section>
-    </div>
+            <section id="section03" class="demo">
+                <a href="#Accolades"><span></span></a>
+            </section>
+        </div>
 
-    <div class="Accolades" id="Accolades">
-        <h4><b>Accolades</b></h4>
-        <h5>Insert text here...</h5>
-    </div>
+        <div class="Accolades" id="Accolades">
+            <h4><b>Accolades</b></h4>
+            <h5>Insert text here...</h5>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+        <script type="text/javascript">
+            $("#section03").click(function () {
+                $('html, body').animate({
+                    scrollTop: $("#Accolades").offset().top - 50
+                }, 2000);
+            });
+        </script>
 
+        <script>
+            var myIndex = 0;
+            carousel();
 
-    <script>
-        var myIndex = 0;
-        carousel();
-
-        function carousel() {
-            var i;
-            var x = document.getElementsByClassName("mySlides");
-            for (i = 0; i < x.length; i++) {
-                x[i].style.display = "none";
+            function carousel() {
+                var i;
+                var x = document.getElementsByClassName("mySlides");
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";
+                }
+                myIndex++;
+                if (myIndex > x.length) {
+                    myIndex = 1
+                }
+                x[myIndex - 1].style.display = "block";
+                setTimeout(carousel, 2000); // Change image every 2 seconds
             }
-            myIndex++;
-            if (myIndex > x.length) {myIndex = 1}
-            x[myIndex-1].style.display = "block";
-            setTimeout(carousel, 2000); // Change image every 2 seconds
-        }
-    </script>
+        </script>
 
 
-</header>
+    </header>
 
 
 </body>
+
 </html>
