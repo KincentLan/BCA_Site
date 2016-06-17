@@ -29,18 +29,18 @@ body {
 h1 {
     position:absolute;
     top:15%;
-    left:47%;
-    width:300px;
+    width:100%;
     color: white;
     font-size: 120%;
     font-family: "Oswald", sans-serif;
+    text-align: center;
 }
 
 h2 {
     position:absolute;
     top:20%;
-    left:23%;
     width:100%;
+    text-align: center;
     color: #FFFFFF;
     font-size: 500%;
     font-family: "Oswald", sans-serif;
