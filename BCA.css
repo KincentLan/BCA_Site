@@ -86,7 +86,7 @@ h4 {
 
 h5 {
     color: #000000;
-    font-size: 120%;
+    font-size: 240%;
     font-family: "Oswald", sans-serif;
 }
 
@@ -94,10 +94,9 @@ img {
     height: 130%;
     width: 130%;
     filter: brightness(30%);
-    -webkit-filter: brightness(30%);
-    -moz-filter: brightness(30%);
-    -o-filter: brightness(30%);
-    -ms-filter: brightness(30%);
+    -webkit-filter: brightness(67%);
+    -moz-filter: brightness(67%);
+    -o-filter: brightness(67%);
 }
 
 section {
