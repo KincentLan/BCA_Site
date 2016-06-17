@@ -50,7 +50,7 @@ h1 {
     top: 20%;
     width: 100%;
     color: white;
-    font-size: 120%;
+    font-size: 130%;
     font-family: "Oswald", sans-serif;
     text-align: center;
 }
@@ -70,7 +70,7 @@ h3 {
     top: 60%;
     width: 100%;
     color: white;
-    font-size: 120%;
+    font-size: 130%;
     font-family: "Oswald", sans-serif;
     text-align: center;
 }
@@ -86,13 +86,20 @@ h4 {
 
 h5 {
     color: #000000;
-    font-size: 240%;
+    font-size: 150%;
     font-family: "Oswald", sans-serif;
+
+}
+
+ul a {
+    list-style-type: circle;
 }
 
 img {
-    height: 130%;
-    width: 130%;
+    width:auto;
+    height:auto;
+    max-height: 130%;
+    max-width: 130%;
     filter: brightness(30%);
     -webkit-filter: brightness(67%);
     -moz-filter: brightness(67%);
@@ -211,6 +218,61 @@ section::after {
     }
     100% {
         opacity: 0;
+    }
+}
+
+.slideDown{
+    animation-name: slideDown;
+    -webkit-animation-name: slideDown;
+
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+
+    animation-timing-function: ease;
+    -webkit-animation-timing-function: ease;
+
+    visibility: visible !important;
+}
+
+@keyframes slideDown {
+    0% {
+        transform: translateY(-100%);
+    }
+    50%{
+        transform: translateY(8%);
+    }
+    65%{
+        transform: translateY(-4%);
+    }
+    80%{
+        transform: translateY(4%);
+    }
+    95%{
+        transform: translateY(-2%);
+    }
+    100% {
+        transform: translateY(0%);
+    }
+}
+
+@-webkit-keyframes slideDown {
+    0% {
+        -webkit-transform: translateY(-100%);
+    }
+    50%{
+        -webkit-transform: translateY(8%);
+    }
+    65%{
+        -webkit-transform: translateY(-4%);
+    }
+    80%{
+        -webkit-transform: translateY(4%);
+    }
+    95%{
+        -webkit-transform: translateY(-2%);
+    }
+    100% {
+        -webkit-transform: translateY(0%);
     }
 }
 
