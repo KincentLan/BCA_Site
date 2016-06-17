@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link rel="stylesheet" href="BCA.css">
+
+    <meta charset="UTF-8">
+    <title>Bergen County Academies</title>
+</head>
+<body class="news">
+
+<header>
+    <div class="nav" width=2%>
+        <ul class=slideInDown>
+            <div class="logo">
+                <li><b>Bergen</b> County Academies</li>
+            </div>
+            <li class="Home"><a href="#">Home</a></li>
+            <li class="About"><a href="#">About</a></li>
+            <li class="Students"><a href="#">Students</a></li>
+            <li class="contact"><a href="#">Contact</a></li>
+        </ul>
+    </div>
+
+    <div class="BergenOne" >
+        <img class="mySlides" src = "Bergen\Copy of 06_O3_DSC_8248 music orchestra.jpg"/>
+
+        <h1>WELCOME TO THE</h1>
+        <h2><b>BERGEN COUNTY ACADEMIES</b></h2>
+    </div>
+
+
+    <script>
+        var myIndex = 0;
+        carousel();
+
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            myIndex++;
+            if (myIndex > x.length) {myIndex = 1}
+            x[myIndex-1].style.display = "block";
+            setTimeout(carousel, 2000); // Change image every 2 seconds
+        }
+    </script>
+
+
+</header>
+
+
+</body>
+</html>
