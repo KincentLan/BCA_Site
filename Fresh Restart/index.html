@@ -25,7 +25,7 @@
 <script>
     document.addEventListener('DOMContentLoaded', function () {
         setTimeout(function () {
-            document.getElementById('slideInDown').className = 'scrollTo';
+            document.getElementById('slideInDown').className = 'slideDown';
         }, 0);
     }, false);
 </script>
@@ -34,15 +34,43 @@
 <div class="parallaxbody">
     <div class="content">
         <div class="parallax-bg">
-            <h2 style="padding:0px;">WELCOME TO THE</h2>
-            <h1 style="padding: 0px;">BERGEN COUNTY ACADEMIES</h1></div>
+            <h2 style="padding-bottom:0%;">WELCOME TO THE</h2>
+            <h1 style="padding: 0px;">BERGEN COUNTY ACADEMIES</h1>
+            <h2 style="padding-top:0%">IF YOU CAN DREAM IT, YOU CAN DO IT!</h2></div>
         <section id="section03" class="demo">
-            <a href="#achievements"><span></span></a>
+            <a href="#Accolades"><span></span></a>
         </section>
     </div>
 </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+<script>
+    $(document).ready(function(){
+        // Add smooth scrolling to all links
+        $("a").on('click', function(event) {
 
-<div class="achievements" id="achievements">
+            // Make sure this.hash has a value before overriding default behavior
+            if (this.hash !== "") {
+                // Prevent default anchor click behavior
+                event.preventDefault();
+
+                // Store hash
+                var hash = this.hash;
+
+                // Using jQuery's animate() method to add smooth page scroll
+                // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                $('html, body').animate({
+                    scrollTop: $(hash).offset().top
+                }, 800, function(){
+
+                    // Add hash (#) to URL when done scrolling (default click behavior)
+                    window.location.hash = hash;
+                });
+            } // End if
+        });
+    });
+</script>
+
+<div class="Accolades" id="Accolades">
     <ul>
         <h1><b>Named the 5th Best School in the Nation</b></h1>
     </ul>
@@ -60,21 +88,14 @@
             The school offers seven specialized programs in the areas of mathematics and science,
             engineering and design, medical science, business and finance, culinary arts and
             hospitality administration, visual and performing arts, and technology and computer science.</h2>
+        <img src="Pictures/STS-logo-2015-for-sidebar.png" class="ri">
     </ul>
 </div>
-
-<div class="footer">
-    <li class="About BCBOE">About</li>
-    <li class="Contact Us">Contact Us</li>
-</div>
+\
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
 <script src="navbar.js"></script>
 <script type="text/javascript">
-    function plusDiv() {
-        return 1;
-    }
-
 
     var parallaxBg = $('div.parallax-bg');
     (function () {

@@ -119,7 +119,7 @@
     }
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 850px) {
     .nav li {
         width: 120px;
         border-bottom: none;

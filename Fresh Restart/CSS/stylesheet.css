@@ -18,3 +18,19 @@ ul h2 {
     padding: 2%;
 }
 
+img.ri
+{
+    position: absolute;
+    width:15%;
+    right: 30%;
+    top: 152%;
+}
+
+img.ri:empty
+{
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
