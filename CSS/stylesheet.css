@@ -4,6 +4,19 @@ body {
     background: #FFFFFF;
 }
 
+<<<<<<< HEAD
+ul {
+    padding-left: 30px;
+}
+
+ul a {
+    display: block;
+    list-style-type: disc;
+
+}
+
+=======
+>>>>>>> origin/gh-pages
 ul h1 {
     display: block;
     font-family:"Oswald", sans-serif;
