@@ -39,7 +39,7 @@ body {
 }
 
 .BergenOne {
-    max-height: 300%;
+    height: 600px;
     overflow: hidden;
     position: relative;
     width: 100%;
