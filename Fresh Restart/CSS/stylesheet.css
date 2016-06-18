@@ -4,6 +4,7 @@ body {
     background: #FFFFFF;
 }
 
+<<<<<<< HEAD
 ul {
     padding-left: 30px;
 }
@@ -14,15 +15,35 @@ ul a {
 
 }
 
+=======
+>>>>>>> origin/gh-pages
 ul h1 {
     display: block;
     font-family:"Oswald", sans-serif;
     font-size: 500%;
+    padding: 2%;
 
 }
 
 ul h2 {
     display: block;
     font-family: "Oswald", sans-serif;
+    padding: 2%;
 }
 
+img.ri
+{
+    position: absolute;
+    width:15%;
+    right: 30%;
+    top: 152%;
+}
+
+img.ri:empty
+{
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
