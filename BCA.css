@@ -95,7 +95,7 @@ ul a {
     list-style-type: circle;
 }
 
-img {
+.mySlides {
     width:auto;
     height:auto;
     max-height: 130%;
@@ -104,6 +104,17 @@ img {
     -webkit-filter: brightness(67%);
     -moz-filter: brightness(67%);
     -o-filter: brightness(67%);
+}
+
+.achievements {
+    width: auto;
+    height: auto;
+    max-height: 45%;
+    max-width: 45%;
+    float:right;
+    display:block;
+    left:50%;
+
 }
 
 section {
