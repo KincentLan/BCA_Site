@@ -4,6 +4,10 @@ body {
     background: #FFFFFF;
 }
 
+ul {
+    padding-left: 30px;
+}
+
 ul a {
     display: block;
     list-style-type: disc;
