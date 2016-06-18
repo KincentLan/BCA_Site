@@ -1,68 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dddaf3ca-6d3e-4d44-8db5-12adac62d021" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BCA.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index.html" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Pictures/AAST.JPG" afterPath="$PROJECT_DIR$/Fresh Restart/Pictures/AAST.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Pictures/ABFIB.jpg" afterPath="$PROJECT_DIR$/Fresh Restart/Pictures/ABFIB.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Pictures/ACAHA.JPG" afterPath="$PROJECT_DIR$/Fresh Restart/Pictures/ACAHA.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Pictures/AEDT.jpg" afterPath="$PROJECT_DIR$/Fresh Restart/Pictures/AEDT.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Pictures/AMST.jpg" afterPath="$PROJECT_DIR$/Fresh Restart/Pictures/AMST.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Pictures/ATCS.jpg" afterPath="$PROJECT_DIR$/Fresh Restart/Pictures/ATCS.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Pictures/AVPA-M.jpg" afterPath="$PROJECT_DIR$/Fresh Restart/Pictures/AVPA-M.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Pictures/AVPA-T.jpg" afterPath="$PROJECT_DIR$/Fresh Restart/Pictures/AVPA-T.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Pictures/AVPA-V.jpg" afterPath="$PROJECT_DIR$/Fresh Restart/Pictures/AVPA-V.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Pictures/Copy of 002_EW_DSC_0192 THEATRE.jpg" afterPath="$PROJECT_DIR$/Fresh Restart/Pictures/Copy of 002_EW_DSC_0192 THEATRE.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Pictures/Copy of 006b_DSC_0103b theatre.jpg" afterPath="$PROJECT_DIR$/Fresh Restart/Pictures/Copy of 006b_DSC_0103b theatre.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Pictures/Copy of 06_O3_DSC_8248 music orchestra.jpg" afterPath="$PROJECT_DIR$/Fresh Restart/Pictures/Copy of 06_O3_DSC_8248 music orchestra.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Pictures/Copy of 06_O4_DSC_8247 music.jpg" afterPath="$PROJECT_DIR$/Fresh Restart/Pictures/Copy of 06_O4_DSC_8247 music.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Pictures/Copy of 1_FE2_DSC_8129 MUSIC.jpg" afterPath="$PROJECT_DIR$/Fresh Restart/Pictures/Copy of 1_FE2_DSC_8129 MUSIC.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Pictures/Copy of 2014-10-27_14.18.11 (1) sports.jpg" afterPath="$PROJECT_DIR$/Fresh Restart/Pictures/Copy of 2014-10-27_14.18.11 (1) sports.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Pictures/Copy of 2_JB10_DSC_8157 music.jpg" afterPath="$PROJECT_DIR$/Fresh Restart/Pictures/Copy of 2_JB10_DSC_8157 music.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Pictures/Copy of 754_15820967062_o Global Education.jpg" afterPath="$PROJECT_DIR$/Fresh Restart/Pictures/Copy of 754_15820967062_o Global Education.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Pictures/Copy of Aishwarya Raja Senior Experience at Lundbeck Research USA (Mentor Noel Boyle).jpg" afterPath="$PROJECT_DIR$/Fresh Restart/Pictures/Copy of Aishwarya Raja Senior Experience at Lundbeck Research USA (Mentor Noel Boyle).jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Pictures/Copy of BCA-lawReview clubs.JPG" afterPath="$PROJECT_DIR$/Fresh Restart/Pictures/Copy of BCA-lawReview clubs.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Pictures/Copy of Baseball VoTech Champs sports.JPG" afterPath="$PROJECT_DIR$/Fresh Restart/Pictures/Copy of Baseball VoTech Champs sports.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Pictures/Copy of Girls Golf BNC Sports.JPG" afterPath="$PROJECT_DIR$/Fresh Restart/Pictures/Copy of Girls Golf BNC Sports.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Pictures/Copy of IMG_0670 AEDT.JPG" afterPath="$PROJECT_DIR$/Fresh Restart/Pictures/Copy of IMG_0670 AEDT.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Pictures/Copy of IMG_0689 aedt.JPG" afterPath="$PROJECT_DIR$/Fresh Restart/Pictures/Copy of IMG_0689 aedt.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Pictures/Copy of IMG_0692 AEDT.JPG" afterPath="$PROJECT_DIR$/Fresh Restart/Pictures/Copy of IMG_0692 AEDT.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Pictures/Copy of IMG_0698 ATCS.JPG" afterPath="$PROJECT_DIR$/Fresh Restart/Pictures/Copy of IMG_0698 ATCS.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Pictures/Copy of IMG_0702 ATCS.JPG" afterPath="$PROJECT_DIR$/Fresh Restart/Pictures/Copy of IMG_0702 ATCS.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Pictures/Copy of IMG_0751 ACAHA.JPG" afterPath="$PROJECT_DIR$/Fresh Restart/Pictures/Copy of IMG_0751 ACAHA.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Pictures/Copy of IMG_0759 acaha.JPG" afterPath="$PROJECT_DIR$/Fresh Restart/Pictures/Copy of IMG_0759 acaha.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Pictures/Copy of IMG_0776 aedt.JPG" afterPath="$PROJECT_DIR$/Fresh Restart/Pictures/Copy of IMG_0776 aedt.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Pictures/Copy of IMG_0785 acha.JPG" afterPath="$PROJECT_DIR$/Fresh Restart/Pictures/Copy of IMG_0785 acha.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Pictures/Copy of IMG_0805 abf.JPG" afterPath="$PROJECT_DIR$/Fresh Restart/Pictures/Copy of IMG_0805 abf.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Pictures/Copy of IMG_0808 abf.JPG" afterPath="$PROJECT_DIR$/Fresh Restart/Pictures/Copy of IMG_0808 abf.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Pictures/Copy of IMG_0816 abf.JPG" afterPath="$PROJECT_DIR$/Fresh Restart/Pictures/Copy of IMG_0816 abf.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Pictures/Copy of IMG_0829 classroom front pg.JPG" afterPath="$PROJECT_DIR$/Fresh Restart/Pictures/Copy of IMG_0829 classroom front pg.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Pictures/Copy of IMG_0849 science.JPG" afterPath="$PROJECT_DIR$/Fresh Restart/Pictures/Copy of IMG_0849 science.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Pictures/Copy of IMG_0856 front page.JPG" afterPath="$PROJECT_DIR$/Fresh Restart/Pictures/Copy of IMG_0856 front page.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Pictures/Copy of IMG_0878 research.JPG" afterPath="$PROJECT_DIR$/Fresh Restart/Pictures/Copy of IMG_0878 research.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Pictures/Copy of IMG_0886 front page.JPG" afterPath="$PROJECT_DIR$/Fresh Restart/Pictures/Copy of IMG_0886 front page.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Pictures/Copy of IMG_0899 treadmill last page.JPG" afterPath="$PROJECT_DIR$/Fresh Restart/Pictures/Copy of IMG_0899 treadmill last page.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Pictures/Copy of IMG_0908 amst.JPG" afterPath="$PROJECT_DIR$/Fresh Restart/Pictures/Copy of IMG_0908 amst.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Pictures/Copy of IMG_0911 science.JPG" afterPath="$PROJECT_DIR$/Fresh Restart/Pictures/Copy of IMG_0911 science.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Pictures/Copy of IMG_0918 amst.JPG" afterPath="$PROJECT_DIR$/Fresh Restart/Pictures/Copy of IMG_0918 amst.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Pictures/Copy of IMG_0921 project or club.JPG" afterPath="$PROJECT_DIR$/Fresh Restart/Pictures/Copy of IMG_0921 project or club.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Pictures/Copy of IMG_0929 B _W visual.JPG" afterPath="$PROJECT_DIR$/Fresh Restart/Pictures/Copy of IMG_0929 B _W visual.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Pictures/Copy of IMG_0932 B_W visual.JPG" afterPath="$PROJECT_DIR$/Fresh Restart/Pictures/Copy of IMG_0932 B_W visual.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Pictures/Copy of IMG_0941 music.JPG" afterPath="$PROJECT_DIR$/Fresh Restart/Pictures/Copy of IMG_0941 music.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Pictures/Copy of IMG_0954 music grp.JPG" afterPath="$PROJECT_DIR$/Fresh Restart/Pictures/Copy of IMG_0954 music grp.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Pictures/Copy of IMG_4083 2 atcs.JPG" afterPath="$PROJECT_DIR$/Fresh Restart/Pictures/Copy of IMG_4083 2 atcs.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Pictures/Copy of PERO1 AVPA theatre B_W.jpg" afterPath="$PROJECT_DIR$/Fresh Restart/Pictures/Copy of PERO1 AVPA theatre B_W.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Pictures/Copy of Senior Experience IMG_3286.jpg" afterPath="$PROJECT_DIR$/Fresh Restart/Pictures/Copy of Senior Experience IMG_3286.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Pictures/Copy of cee_pic Counseling.jpg" afterPath="$PROJECT_DIR$/Fresh Restart/Pictures/Copy of cee_pic Counseling.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Pictures/Copy of image_15638297158_o Global Education.jpg" afterPath="$PROJECT_DIR$/Fresh Restart/Pictures/Copy of image_15638297158_o Global Education.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Pictures/Copy of jacob AVPA Visual.jpg" afterPath="$PROJECT_DIR$/Fresh Restart/Pictures/Copy of jacob AVPA Visual.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Pictures/Copy of sara vargas frosh last pg.jpg" afterPath="$PROJECT_DIR$/Fresh Restart/Pictures/Copy of sara vargas frosh last pg.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Pictures/Copy of senior experience IMG_3257.jpg" afterPath="$PROJECT_DIR$/Fresh Restart/Pictures/Copy of senior experience IMG_3257.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Pictures/Copy of senior experience Max Aronson.jpg" afterPath="$PROJECT_DIR$/Fresh Restart/Pictures/Copy of senior experience Max Aronson.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Pictures/Copy of senior experience OR room.jpg" afterPath="$PROJECT_DIR$/Fresh Restart/Pictures/Copy of senior experience OR room.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Pictures/Copy of senior experience photo.jpg" afterPath="$PROJECT_DIR$/Fresh Restart/Pictures/Copy of senior experience photo.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Pictures/bcalogo.png" afterPath="$PROJECT_DIR$/Fresh Restart/Pictures/bcalogo.png" />
+    <list default="true" id="dddaf3ca-6d3e-4d44-8db5-12adac62d021" name="Default" comment="CSS">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Fresh Restart/CSS/Parallax.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Fresh Restart/CSS/navbar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Fresh Restart/CSS/stylesheet.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Fresh Restart/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="BCA_Site.iws" />
@@ -85,16 +28,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Fresh Restart/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+            <state relative-caret-position="339">
+              <caret line="63" column="6" selection-start-line="63" selection-start-column="6" selection-end-line="63" selection-end-column="6" />
               <folding>
                 <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -103,18 +44,18 @@
       <file leaf-file-name="navbar.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Fresh Restart/CSS/navbar.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="40" column="25" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
+            <state relative-caret-position="51">
+              <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="stylesheet.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="stylesheet.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Fresh Restart/CSS/stylesheet.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <state relative-caret-position="239">
+              <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -123,8 +64,8 @@
       <file leaf-file-name="Parallax.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Fresh Restart/CSS/Parallax.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+            <state relative-caret-position="426">
+              <caret line="126" column="0" selection-start-line="126" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -155,10 +96,10 @@
       <list>
         <option value="$PROJECT_DIR$/BCA.css" />
         <option value="$PROJECT_DIR$/BCA.html" />
-        <option value="$PROJECT_DIR$/Fresh Restart/CSS/stylesheet.css" />
         <option value="$PROJECT_DIR$/Fresh Restart/CSS/navbar.css" />
         <option value="$PROJECT_DIR$/Fresh Restart/CSS/Parallax.css" />
         <option value="$PROJECT_DIR$/Fresh Restart/index.html" />
+        <option value="$PROJECT_DIR$/Fresh Restart/CSS/stylesheet.css" />
       </list>
     </option>
   </component>
@@ -213,6 +154,38 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="BCA_Site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BCA_Site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BCA_Site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Fresh Restart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BCA_Site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BCA_Site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Fresh Restart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CSS" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -326,7 +299,7 @@
       <workItem from="1466216339300" duration="1066000" />
       <workItem from="1466264222130" duration="545000" />
       <workItem from="1466264778784" duration="2000" />
-      <workItem from="1466264785883" duration="4589000" />
+      <workItem from="1466264785883" duration="6800000" />
     </task>
     <task id="LOCAL-00001" summary="CSS">
       <created>1466140233282</created>
@@ -363,19 +336,26 @@
       <option name="project" value="LOCAL" />
       <updated>1466160123161</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="CSS">
+      <created>1466276370512</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1466276370512</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10896000" />
+    <option name="totallyTimeSpent" value="13107000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32898173" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32898173" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -542,30 +522,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BCA.html" />
-    <entry file="file://$PROJECT_DIR$/Fresh Restart/CSS/navbar.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="40" column="25" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Fresh Restart/CSS/stylesheet.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Fresh Restart/CSS/Parallax.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BCA.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="373">
@@ -582,16 +538,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Fresh Restart/CSS/Parallax.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="126" column="0" selection-start-line="126" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Fresh Restart/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+        <state relative-caret-position="339">
+          <caret line="63" column="6" selection-start-line="63" selection-start-column="6" selection-end-line="63" selection-end-column="6" />
           <folding>
             <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fresh Restart/CSS/navbar.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fresh Restart/CSS/stylesheet.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>

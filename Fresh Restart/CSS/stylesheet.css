@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #FFFFFF;
+}
+
+ul a {
+    display: block;
+    list-style-type: disc;
+
+}
+
+ul h1 {
+    display: block;
+    font-family:"Oswald", sans-serif;
+    font-size: 500%;
+
+}
+
+ul h2 {
+    display: block;
+    font-family: "Oswald", sans-serif;
+}
+
