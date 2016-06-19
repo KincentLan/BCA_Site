@@ -18,6 +18,8 @@ ul h2 {
     padding: 2%;
 }
 
+
+
 img.right {
     float: right;
 }
@@ -26,7 +28,7 @@ img.ri {
     float: right;
     max-width: 300px;
     height: auto;
-    padding-right: 7%;
+    padding-right: 10%;
     padding-top: 2%;
 }
 
@@ -38,3 +40,20 @@ img.banner {
     padding-top: 2%;
 }
 
+.top {
+    display: inline-block;
+    height: auto;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+html {
+    display: table;
+}
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
