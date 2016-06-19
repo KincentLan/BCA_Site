@@ -18,17 +18,20 @@ ul h2 {
     padding: 2%;
 }
 
+.academies img {
+    width: 25%;
+    height: 100%;
+}
+
+.academies li {
+    display: inline-block;
+}
 
 img.right {
-    float: right;
 }
 
 img.ri {
-    float: right;
     max-width: 250px;
-    height: auto;
-    padding-right: 10%;
-    padding-top: 2%;
 }
 
 img.banner {
@@ -38,7 +41,5 @@ img.banner {
 
 .top {
     display: inline-block;
-    margin: 10%;
-    margin-top: 6%;
 }
 
