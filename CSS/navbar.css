@@ -11,6 +11,7 @@
     -moz-opacity: 0.6;
     width: 100%;
     z-index: 200;
+    border-bottom-color: #ccac00;
 }
 
 .logo {

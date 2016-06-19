@@ -70,7 +70,7 @@ body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus .titleB
 
 img {
     width: auto;
-    height: 115%;
+    height: 100%;
 }
 
 img.logo {
