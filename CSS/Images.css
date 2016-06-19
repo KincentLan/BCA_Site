@@ -1,0 +1,17 @@
+.skinsList-item .thumb img {
+    min-width: 100%;
+}
+
+.content-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+img {
+    font-family: "Open Sans", Arial, sans-serif;
+}
+
+body {
+    box-sizing: border-box;
+}
+
