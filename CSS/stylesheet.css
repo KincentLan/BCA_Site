@@ -18,19 +18,21 @@ ul h2 {
     padding: 2%;
 }
 
-img.ri
-{
-    position: absolute;
-    width:15%;
-    right: 30%;
-    top: 152%;
+img.right {
+    float: right;
 }
 
-img.ri:empty
-{
-    -webkit-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    -o-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+img.ri {
+    float: right;
+    max-width: 200px;
+    height: auto;
+    padding-right: 4%;
 }
+
+img.banner {
+    float:right;
+    width:30%;
+    height:30%;
+    padding-right: 4%;
+}
+
