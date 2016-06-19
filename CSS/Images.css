@@ -67,3 +67,13 @@ body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus .titleB
         padding-bottom: 25%;
     }
 }
+
+img {
+    width: auto;
+    height: 115%;
+}
+
+img.logo {
+    width: auto;
+    height:95%;
+}
