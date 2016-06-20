@@ -52,6 +52,7 @@ img.ri {
 }
 
 img.banner {
+    padding-right: 2%;
     float: right;
     max-width: 600px;
     display: inline-block;
