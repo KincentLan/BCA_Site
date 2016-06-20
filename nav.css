@@ -19,7 +19,7 @@
  
  .nav li {
      float: left;
-     position: relative;
+     position: fixed;
      width: 20%;
  }
  
@@ -43,8 +43,8 @@
      float: left;
      left: 0;
      opacity: 0;
-     position: fixed;
-     top: 35px;
+     position: relative;
+     top: 60px;
      visibility: hidden;
      z-index: 1;
      -webkit-transition: all .25s ease;
@@ -56,7 +56,7 @@
  
  .nav li:hover ul {
      opacity: 1;
-     top: 50px;
+     top: 80px;
      visibility: visible;
  }
  
