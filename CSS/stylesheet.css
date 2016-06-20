@@ -21,11 +21,19 @@ h2 {
 }
 
 h3 {
-    display:block;
+    display: block;
     font-family:"Oswald", sans-serif;
     padding: 2%;
     padding-top: 1%;
 }
+
+.section {
+    width: 23%;
+    margin-left: 2%;
+    margin-top: 6%;
+}
+
+
 
 .academies img {
     width: 25%;
@@ -168,4 +176,8 @@ footer li {
     padding-top: 16%;
     padding-bottom:16%;
     text-decoration: none;
+}
+
+ul.sections {
+    display:inline-block;
 }
