@@ -1,15 +1,14 @@
-<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
-    <link rel="stylesheet" href="CSS/stylesheet.css" />
-    <link rel="stylesheet" href="CSS/Parallax.css" />
-    <link rel="stylesheet" href="CSS/navbar.css" />
-    <link rel="stylesheet" href="CSS/Images.css" />
-    <link rel="stylesheet" href="CSS/footer.css" />
-    <link rel="icon" href="Pictures/bcalogo.png">
+    <link rel="stylesheet" href="/CSS/stylesheet.css" />
+    <link rel="stylesheet" href="/CSS/Parallax.css" />
+    <link rel="stylesheet" href="/CSS/navbar.css" />
+    <link rel="stylesheet" href="/CSS/Images.css" />
+    <link rel="stylesheet" href="/CSS/footer.css" />
+    <link rel="icon" href="/Pictures/bcalogo.png">
     <meta charset="UTF-8">
     <title>Bergen County Academies</title>
 </head>
@@ -99,66 +98,50 @@
                 </div>
                 <div class="box">
                     <div class="boxInner">
-                        <a href="Academies/ABFIB.html">
-                            <img src="Pictures\ABFIB.jpg" />
-                            <div class="titleBox">Academy for Business and Finance/International Baccalaureate</div>
-                        </a>
+                        <img src="Pictures\ABFIB.jpg" />
+                        <div class="titleBox">Academy for Business and Finance/International Baccalaureate</div>
                     </div>
                 </div>
                 <div class="box">
                     <div class="boxInner">
-                        <a href="Academies/ACAHA.html">
-                            <img src="Pictures\ACAHA2.jpg" />
-                            <div class="titleBox">Academy of Culinary Arts and Hospitality Adminstration</div>
-                        </a>
+                        <img src="Pictures\ACAHA2.jpg" />
+                        <div class="titleBox">Academy of Culinary Arts and Hospitality Adminstration</div>
                     </div>
                 </div>
                 <div class="box">
                     <div class="boxInner">
-                        <a href="Academies/AEDT.html">
-                            <img src="Pictures\engineering.jpg" />
-                            <div class="titleBox">Academy of Engineering and Design of Technology</div>
-                        </a>
+                        <img src="Pictures\engineering.jpg" />
+                        <div class="titleBox">Academy of Engineering and Design of Technology</div>
                     </div>
                 </div>
                 <div class="box">
                     <div class="boxInner">
-                        <a href="Academies/AMST.html">
-                            <img src="Pictures\AMST.jpg" />
-                            <div class="titleBox">Academy of Medical Sciences and Technology</div>
-                        </a>
+                        <img src="Pictures\AMST.jpg" />
+                        <div class="titleBox">Academy of Medical Sciences and Technology</div>
                     </div>
                 </div>
                 <div class="box">
                     <div class="boxInner">
-                        <a href="Academies/ATCS.html">
-                            <img src="Pictures\ATCS2.jpg" />
-                            <div class="titleBox">Academy of Technology and Computer Science</div>
-                        </a>
+                        <img src="Pictures\ATCS2.jpg" />
+                        <div class="titleBox">Academy of Technology and Computer Science</div>
                     </div>
                 </div>
                 <div class="box">
                     <div class="boxInner">
-                        <a href="Academies/AVPAM.html">
-                            <img src="Pictures\AVPA-M4.png" />
-                            <div class="titleBox">Academy of Visual Performing Arts - Music Concentration</div>
-                        </a>
+                        <img src="Pictures\AVPA-M4.png" />
+                        <div class="titleBox">Academy of Visual Performing Arts - Music Concentration</div>
                     </div>
                 </div>
                 <div class="box">
                     <div class="boxInner">
-                        <a href="Academies/AVPAT.html">
                         <img src="Pictures\AVPA-T2.jpg" />
                         <div class="titleBox">Academy of Visual Performing Arts - Theater Concentration</div>
-                        </a>
                     </div>
                 </div>
                 <div class="box">
                     <div class="boxInner">
-                        <a href="Academies/AVPAV.html">
                         <img src="Pictures\AVPA-V2.png" />
                         <div class="titleBox">Academy of Visual Performing Arts - Visual Concentration</div>
-                        </a>
                     </div>
                 </div>
             </div>
@@ -266,23 +249,7 @@
                 parallaxBg.css('background-position', '0' + -currScrollPos / 4 + 'px');
             });
         })();
-        var images = new Array('Pictures/Copy of 06_O3_DSC_8248 music orchestra.jpg', 'Pictures/Copy%20of%20754_15820967062_o%20Global%20Education.jpg',
-            'Pictures/Copy%20of%20Aishwarya%20Raja%20Senior%20Experience%20at%20Lundbeck%20Research%20USA%20(Mentor%20Noel%20Boyle).jpg',
-            'Pictures/Copy%20of%20Baseball%20VoTech%20Champs%20sports.JPG', 'Pictures/Copy%20of%20IMG_0878%20research.JPG',
-            'Pictures/Copy%20of%20IMG_0908%20amst.JPG', 'Pictures/Copy%20of%20IMG_4083%202%20atcs.JPG');
-        var nextimage = 0;
-        doSlideshow();
-
-        function doSlideshow() {
-            if (nextimage >= images.length) {
-                nextimage = 0;
-            }
-            // parallaxBg.css('transition', 'background 1s linear');
-            parallaxBg.css('background-image', 'url("' + images[nextimage++] + '")').fadeIn(9000, function () {
-                // parallaxBg.css('transition','all 0.2 ease');
-                setTimeout(doSlideshow, 5000);
-            });
-        }
+        parallaxBg.css('background-image', 'url("Pictures/AAST.JPG")')
     </script>
 
 </body>
