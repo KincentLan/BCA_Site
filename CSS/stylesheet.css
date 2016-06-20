@@ -74,7 +74,7 @@ img.banner {
 }
 
 .quicklinks h2 a:hover {
-    color: aqua;
+    color: #00FFFF;
 }
 
 .quicklinks a:visited {
@@ -100,7 +100,7 @@ footer a {
 }
 
 footer li a:hover {
-    color: aqua;
+    color: #00FFFF;
 }
 
 footer a:visited {
@@ -152,7 +152,7 @@ footer li {
     }
     .footer a:hover {
         background-color: #FFFFFF;
-        color: #1e90ff;
+        color: #00FFFF;
     }
     .footer a.active {
         background-color: #fff;
@@ -165,5 +165,7 @@ footer li {
     background-color: #3F3F3F;
     color: #FFFFFF;
     height: 500%;
+    padding-top: 16%;
+    padding-bottom:16%;
     text-decoration: none;
 }
