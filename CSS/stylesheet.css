@@ -99,8 +99,8 @@ footer a {
     transition: all 0.3s ease;
 }
 
-footer a:hover {
-    color: INSERT-COLOR;
+footer li a:hover {
+    color: aqua;
 }
 
 footer a:visited {
