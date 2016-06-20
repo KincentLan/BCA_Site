@@ -4,7 +4,7 @@ body {
     background: #FFFFFF;
 }
 
-ul h1 {
+h1 {
     display: block;
     font-family:"Oswald", sans-serif;
     font-size: 500%;
@@ -12,7 +12,7 @@ ul h1 {
 
 }
 
-ul h2 {
+h2 {
     display: block;
     font-family: "Oswald", sans-serif;
     padding: 2%;
@@ -28,18 +28,40 @@ ul h2 {
 }
 
 img.right {
+<<<<<<< HEAD
+=======
+    float: right;
+    padding-right: 6%;
+    max-height: 300px;
+    height: auto;
+    width: auto;
+>>>>>>> origin/gh-pages
 }
 
 img.ri {
     max-width: 250px;
+<<<<<<< HEAD
+=======
+    height: auto;
+    padding-right: 12%;
+    padding-top: 2%;
+>>>>>>> origin/gh-pages
 }
 
 img.banner {
     float: right;
+<<<<<<< HEAD
     max-width: 600px;
 }
 
 .top {
     display: inline-block;
+=======
+    max-height: 200px;
+    max-width: 700px;
+    width: auto;
+    heigh: auto;
+    padding-right: 5%;
+>>>>>>> origin/gh-pages
 }
 

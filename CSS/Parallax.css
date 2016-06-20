@@ -15,7 +15,11 @@
 }
 
 .parallax-bg {
+<<<<<<< HEAD
     padding: 19% 0;
+=======
+    padding: 16% 0;
+>>>>>>> origin/gh-pages
     background-size: cover;
     background-attachment: fixed;
     -webkit-transition: all 0.2s ease;
@@ -36,7 +40,7 @@
     text-align: center;
     color: #FFFFFF;
     font-size:200%;
-    text-shadow: 2.5px 2.5px #1A1A1A;
+    text-shadow: 1px 1px #1A1A1A;
     font-family: "Oswald", sans-serif;
 
 }
