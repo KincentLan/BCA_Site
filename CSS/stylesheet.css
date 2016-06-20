@@ -180,4 +180,5 @@ footer li {
 
 ul.sections {
     display:inline-block;
+    /*fix*/
 }
