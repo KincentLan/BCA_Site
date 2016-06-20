@@ -1,1 +1,71 @@
+footer a {
+    padding-right: 20px;
+    width: 100%;
+    text-decoration: none;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
 
+footer li a:hover {
+    color: #00FFFF;
+}
+
+footer a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    height: 3%;
+    width: 100%;
+    background-color: #000000;
+    opacity: 90;
+    border: 1px solid black;
+    opacity: 0.90;
+    filter: alpha(opacity=70);
+    -moz-opacity: 0.6;
+    width: 100%;
+    z-index: 200;
+    border-top-color: #ccac00;
+}
+
+footer li {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2em;
+    z-index: 200;
+}
+
+@media screen and (min-width: 850px) {
+    .footer li {
+        width: 120px;
+        border-bottom: none;
+        height: 50px;
+        line-height: 50px;
+        font-size: 1.2em;
+        z-index: 200;
+        color: black;
+    }
+    .footer li {
+        display: inline-block;
+    }
+    .footer a {
+        text-decoration: none;
+        color: #fff;
+        display: block;
+        transition: .3s background-color;
+    }
+    .footer a:hover {
+        background-color: #FFFFFF;
+        color: #00FFFF;
+    }
+    .footer a.active {
+        background-color: #fff;
+        color: #444;
+        cursor: default;
+    }
+}

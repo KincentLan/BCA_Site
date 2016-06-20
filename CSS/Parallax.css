@@ -3,18 +3,18 @@
     padding: 0px;
 }
 
-.parallaxbody {
+.background-image-container {
     margin: 0;
     padding: 0;
 
 }
 
-.content {
+.background-image-content {
     height: auto;
     background-color: #333;
 }
 
-.parallax-bg {
+.background-bg {
     padding: 14% 0;
     background-size: cover;
     background-attachment: fixed;
@@ -22,7 +22,7 @@
     -moz-transition: all 0.2s ease;
     transition: all 0.2s ease;
 }
-.parallax-bg h1 {
+.background-bg h1 {
     display: block;
     text-shadow: 2.5px 2.5px #1A1A1A;
     text-align: center;
@@ -32,7 +32,7 @@
     font-family: "Oswald", sans-serif;
 }
 
-.parallax-bg h2 {
+.background-bg h2 {
     text-align: center;
     color: #FFFFFF;
     font-size:200%;
