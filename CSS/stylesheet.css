@@ -12,7 +12,6 @@ h1 {
     padding-bottom: -1%;
 }
 
-
 h2 {
     display: block;
     font-family: "Oswald", sans-serif;
@@ -22,18 +21,10 @@ h2 {
 
 h3 {
     display: block;
-    font-family:"Oswald", sans-serif;
+    font-family: "Oswald", sans-serif;
     padding: 2%;
     padding-top: 1%;
 }
-
-.section {
-    width: 23%;
-    margin-left: 2%;
-    margin-top: 6%;
-}
-
-
 
 .academies img {
     width: 25%;
@@ -148,7 +139,6 @@ footer li {
         z-index: 200;
         color: black;
     }
-
     .footer li {
         display: inline-block;
     }
@@ -173,12 +163,17 @@ footer li {
     background-color: #3F3F3F;
     color: #FFFFFF;
     height: 500%;
-    padding-top: 16%;
-    padding-bottom:16%;
     text-decoration: none;
 }
 
-ul.sections {
-    display:inline-block;
-    /*fix*/
+.quicklinks h1 {
+    padding-bottom: 10%;
+    /*Change whatever*/
+}
+
+.sections li {
+    vertical-align: top;
+    padding-left: 2%;
+    width: 20%;
+    display: inline-block;
 }
