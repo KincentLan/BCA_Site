@@ -33,45 +33,32 @@
             }, 0);
         }, false);
     </script>
-    
-      <style>
-  #slides {display:none;}
-    body {margin:0;padding:0;overflow:hidden;}
-	.slidesjs-navigation {display:none;}
-	
-	.slidesjs-container, .slidesjs-control {
-	  position: relative; 
-	  z-index:10;
-	  width: 100% !important;
-	  height: 100% !important;
-	}
-	#slides .slidesjs-slide {
-	  width:auto !important;
-	  height: auto;
-	  min-width: 25%;
-	  min-height: 25%;
-	}
-	
+ <div id="slides">
+    <img src="Pictures/Copy of 06_O3_DSC_8248 music orchestra.jpg">
+    <img src="Pictures/Copy of IMG_0670 AEDT.JPG">
+    <img src="Pictures/ATCS2">
+  </div>
+  
+   <style>
+    /* Prevents slides from flashing */
+    #slides {
+      display:none;
+    }
   </style>
- 
- <div class="header">
-  <div class="slidejs-container">
-    <div id="slides">      
-      <img src="Pictures/Copy of 06_O3_DSC_8248 music orchestra.jpg">
-      <img src="Pictures/hackBCA.png">
-      <img src="Pictures/Copy of IMG_4083 2 atcs.JPG">
-      <img src="Copy of image_15638297158_o Global Education.jpg">
-    </div>
-  </div>
-  <div class="container" style="position: relative; z-index:20;padding:1.5em;">
-    <h2 style="padding-bottom:0%;">WELCOME TO THE</h2>
-                <h1 style="padding: 0px;">BERGEN COUNTY ACADEMIES</h1>
-                <h2 style="padding-top:2.5%">IF YOU CAN DREAM IT, YOU CAN DO IT!</h2></div>
-            <section id="section03" class="demo">
-                <a href="#academies"><span></span></a>
-            </section>
-  </div>  
-  </div>
+  
+   <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <script src="jquery.slides.min.js"></script>
+
+  <script>
+    $(function(){
+      $("#slides").slidesjs({
+        width: 940,
+        height: 528
+      });
+    });
+  </script>
+  
+  
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
     <script>
         $(document).ready(function () {
