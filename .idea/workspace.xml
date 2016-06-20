@@ -1,20 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dddaf3ca-6d3e-4d44-8db5-12adac62d021" name="Default" comment="CSS">
+    <list default="true" id="dddaf3ca-6d3e-4d44-8db5-12adac62d021" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Academies/AAST.html" afterPath="$PROJECT_DIR$/Academies/AAST.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Academies/ABFIB.html" afterPath="$PROJECT_DIR$/Academies/ABFIB.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Academies/ACAHA.html" afterPath="$PROJECT_DIR$/Academies/ACAHA.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Academies/AEDT.html" afterPath="$PROJECT_DIR$/Academies/AEDT.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Academies/AMST.html" afterPath="$PROJECT_DIR$/Academies/AMST.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Academies/ATCS.html" afterPath="$PROJECT_DIR$/Academies/ATCS.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Academies/AVPAM.html" afterPath="$PROJECT_DIR$/Academies/AVPAM.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Academies/AVPAT.html" afterPath="$PROJECT_DIR$/Academies/AVPAT.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Academies/AVPAV.html" afterPath="$PROJECT_DIR$/Academies/AVPAV.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CSS/Images.css" afterPath="$PROJECT_DIR$/CSS/Images.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CSS/Parallax.css" afterPath="$PROJECT_DIR$/CSS/Parallax.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CSS/footer.css" afterPath="$PROJECT_DIR$/CSS/footer.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CSS/stylesheet.css" afterPath="$PROJECT_DIR$/CSS/stylesheet.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
@@ -38,11 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4031">
-              <caret line="255" column="0" selection-start-line="255" selection-start-column="0" selection-end-line="255" selection-end-column="0" />
+            <state relative-caret-position="372">
+              <caret line="269" column="163" selection-start-line="269" selection-start-column="163" selection-end-line="269" selection-end-column="163" />
               <folding>
                 <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -52,12 +41,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AAST.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AAST.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Academies/AAST.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="41" column="70" selection-start-line="41" selection-start-column="70" selection-end-line="41" selection-end-column="70" />
-              <folding />
+            <state relative-caret-position="-525">
+              <caret line="160" column="0" selection-start-line="160" selection-start-column="0" selection-end-line="160" selection-end-column="0" />
+              <folding>
+                <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -65,8 +56,8 @@
       <file leaf-file-name="stylesheet.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CSS/stylesheet.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="610">
-              <caret line="100" column="1" selection-start-line="100" selection-start-column="1" selection-end-line="100" selection-end-column="1" />
+            <state relative-caret-position="426">
+              <caret line="101" column="1" selection-start-line="101" selection-start-column="1" selection-end-line="101" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -85,7 +76,7 @@
       <file leaf-file-name="Images.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CSS/Images.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
+            <state relative-caret-position="426">
               <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
               <folding />
             </state>
@@ -95,7 +86,7 @@
       <file leaf-file-name="navbar.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CSS/navbar.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2108">
+            <state relative-caret-position="426">
               <caret line="124" column="21" selection-start-line="124" selection-start-column="21" selection-end-line="124" selection-end-column="21" />
               <folding />
             </state>
@@ -141,10 +132,10 @@
         <option value="$PROJECT_DIR$/AAST.html" />
         <option value="$PROJECT_DIR$/CSS/footer.css" />
         <option value="$PROJECT_DIR$/CSS/Parallax.css" />
-        <option value="$PROJECT_DIR$/CSS/stylesheet.css" />
         <option value="$PROJECT_DIR$/CSS/images.css" />
-        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/CSS/stylesheet.css" />
         <option value="$PROJECT_DIR$/Academies/AAST.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -338,7 +329,7 @@
       <workItem from="1466335582910" duration="23281000" />
       <workItem from="1466384528888" duration="1742000" />
       <workItem from="1466418907351" duration="22000" />
-      <workItem from="1466420913157" duration="1170000" />
+      <workItem from="1466420913157" duration="4387000" />
     </task>
     <task id="LOCAL-00001" summary="CSS">
       <created>1466140233282</created>
@@ -543,11 +534,18 @@
       <option name="project" value="LOCAL" />
       <updated>1466383021113</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="CSS">
+      <created>1466422096364</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1466422096364</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47910000" />
+    <option name="totallyTimeSpent" value="51127000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -810,30 +808,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CSS/navbar.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2108">
-          <caret line="124" column="21" selection-start-line="124" selection-start-column="21" selection-end-line="124" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CSS/footer.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CSS/Images.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Academies/AAST.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -847,26 +821,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4031">
-          <caret line="255" column="0" selection-start-line="255" selection-start-column="0" selection-end-line="255" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h2#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CSS/stylesheet.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="610">
-          <caret line="100" column="1" selection-start-line="100" selection-start-column="1" selection-end-line="100" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CSS/Parallax.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -875,11 +829,57 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/CSS/navbar.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="124" column="21" selection-start-line="124" selection-start-column="21" selection-end-line="124" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS/Images.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS/footer.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS/stylesheet.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="101" column="1" selection-start-line="101" selection-start-column="1" selection-end-line="101" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Academies/AAST.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="41" column="70" selection-start-line="41" selection-start-column="70" selection-end-line="41" selection-end-column="70" />
-          <folding />
+        <state relative-caret-position="-525">
+          <caret line="160" column="0" selection-start-line="160" selection-start-column="0" selection-end-line="160" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="269" column="163" selection-start-line="269" selection-start-column="163" selection-end-line="269" selection-end-column="163" />
+          <folding>
+            <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

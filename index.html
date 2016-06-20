@@ -197,7 +197,9 @@
             <li>
                 <h2 style="padding-bottom:3%;">Home of six Intel Science Talent Search Finalists in the past six years.</h2>
             </li>
-            <img src="Pictures\top-high-schools-2015-banner.png" class="banner">
+            <a href="http://www.newsweek.com/high-schools/americas-top-high-schools-2015">
+                <img src="Pictures\top-high-schools-2015-banner.png" class="banner"></a>
+
             <li>
                 <h2 style="padding-bottom: 3%;">Home of a member of the 2015 U.S. International Math Olympiad Team.</h2>
             </li>
@@ -258,6 +260,30 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
     <script src="navbar.js"></script>
     <script type="text/javascript">
+        function preloader() {
+            if (document.getElementById) {
+                document.getElementById("preload-01").style.background = "url('Pictures/Copy of 06_O3_DSC_8248 music orchestra.jpg') no-repeat -9999px -9999px";
+                document.getElementById("preload-02").style.background = "url('Pictures/Copy%20of%20754_15820967062_o%20Global%20Education.jpg') no-repeat -9999px -9999px";
+                document.getElementById("preload-03").style.background = "url('Pictures/Copy%20of%20Aishwarya%20Raja%20Senior%" +
+                        "20Experience%20at%20Lundbeck%20Research%20USA%20(Mentor%20Noel%20Boyle).jpg') no-repeat -9999px -9999px";
+                document.getElementById("preload-04").style.background = "url('Pictures/Copy%20of%20IMG_0878%20research.JPG') no-repeat -9999px -9999px";
+                document.getElementById("preload-05").style.background = "url('Pictures/Pictures/Copy%20of%20IMG_4083%202%20atcs.JPG'') no-repeat -9999px -9999px";
+            }
+        }
+        function addLoadEvent(func) {
+            var oldonload = window.onload;
+            if (typeof window.onload != 'function') {
+                window.onload = func;
+            } else {
+                window.onload = function() {
+                    if (oldonload) {
+                        oldonload();
+                    }
+                    func();
+                }
+            }
+        }
+
         var parallaxBg = $('div.background-bg');
         (function () {
             var documentEl = $(document);
@@ -272,6 +298,7 @@
             'Pictures/Copy%20of%20IMG_0908%20amst.JPG', 'Pictures/Copy%20of%20IMG_4083%202%20atcs.JPG');
         var nextimage = 0;
         doSlideshow();
+        addLoadEvent(preloader())
 
         function doSlideshow() {
             if (nextimage >= images.length) {
