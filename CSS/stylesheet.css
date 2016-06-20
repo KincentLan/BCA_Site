@@ -52,7 +52,7 @@ img.ri {
     float: right;
     max-width: 250px;
     height: auto;
-    margin-right: 10%;
+    margin-right: 8%;
     margin-top: 2%;
 }
 
@@ -68,7 +68,7 @@ img.banner {
 }
 
 .quicklinks a {
-    color: white;
+    color: #FFFFFF;
     text-decoration: none;
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
