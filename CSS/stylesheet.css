@@ -28,40 +28,30 @@ h2 {
 }
 
 img.right {
-<<<<<<< HEAD
-=======
     float: right;
     padding-right: 6%;
     max-height: 300px;
     height: auto;
     width: auto;
->>>>>>> origin/gh-pages
 }
 
 img.ri {
+    float: right;
     max-width: 250px;
-<<<<<<< HEAD
-=======
     height: auto;
     padding-right: 12%;
     padding-top: 2%;
->>>>>>> origin/gh-pages
 }
 
 img.banner {
     float: right;
-<<<<<<< HEAD
     max-width: 600px;
-}
-
-.top {
     display: inline-block;
-=======
     max-height: 200px;
     max-width: 700px;
     width: auto;
-    heigh: auto;
+    height: auto;
     padding-right: 5%;
->>>>>>> origin/gh-pages
 }
+
 
