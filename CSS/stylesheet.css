@@ -69,3 +69,57 @@ footer a:visited {
     color: white;
     text-decoration: none;
 }
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 4%;
+    width: 100%;
+    background-color: #000000;
+    opacity: 90;
+    border: 1px solid black;
+    opacity: 0.90;
+    filter: alpha(opacity=70);
+    -moz-opacity: 0.6;
+    width: 100%;
+    z-index: 200;
+    border-top-color: #ccac00;
+}
+
+footer li {
+    font-family: 'Roboto', serif;
+    font-size: 1.2em;
+    z-index: 200;
+}
+
+@media screen and (min-width: 850px) {
+    .footer li {
+        width: 120px;
+        border-bottom: none;
+        height: 50px;
+        line-height: 50px;
+        font-size: 1.2em;
+        z-index: 200;
+        color: black;
+    }
+    /* Option 1 - Display Inline */
+    .footer li {
+        display: inline-block;
+    }
+    .footer a {
+        text-decoration: none;
+        color: #fff;
+        display: block;
+        transition: .3s background-color;
+    }
+    .footer a:hover {
+        background-color: #FFFFFF;
+        color: #1e90ff;
+    }
+    .footer a.active {
+        background-color: #fff;
+        color: #444;
+        cursor: default;
+    }
+}

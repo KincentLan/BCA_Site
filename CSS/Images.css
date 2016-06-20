@@ -49,22 +49,22 @@ body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus .titleB
 @media only screen and (max-width : 650px) and (min-width : 481px) {
     /* Tablet view: 2 tiles */
     .box {
-        width: 50%;
-        padding-bottom: 50%;
+        width: 49%;
+        padding-bottom: 49%;
     }
 }
 @media only screen and (max-width : 1050px) and (min-width : 651px) {
     /* Small desktop / ipad view: 3 tiles */
     .box {
-        width: 33.3%;
-        padding-bottom: 33.3%;
+        width: 31.3%;
+        padding-bottom: 31.3%;
     }
 }
 @media only screen and (max-width : 1290px) and (min-width : 1051px) {
     /* Medium desktop: 4 tiles */
     .box {
-        width: 25%;
-        padding-bottom: 25%;
+        width: 24%;
+        padding-bottom: 24%;
     }
 }
 
