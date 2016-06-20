@@ -9,13 +9,15 @@
     <link rel="stylesheet" href="CSS/navbar.css" />
     <link rel="stylesheet" href="CSS/Images.css" />
     <link rel="stylesheet" href="CSS/footer.css" />
+    <link rel="stylesheet" href="nav.css" />
     <link rel="icon" href="Pictures/bcalogo.png">
     <meta charset="UTF-8">
     <title>Bergen County Academies</title>
 </head>
+
 <body>
     <div class="nav" width=2%>
-        <ul id="slideInDown">
+        <ul class="cf">
             <div class="logo">
                 <li><b>Bergen</b> County Academies</li>
             </div>
@@ -23,6 +25,14 @@
             <li class="About"><a href="#">About</a></li>
             <li class="Students"><a href="#">Students</a></li>
             <li class="contact"><a href="#">Contact</a></li>
+            <li class="test"><a href="#">Test</a>
+                <ul>
+                    <li><a href="#">Clubs</a></li>
+                    <li><a href="#">Electives</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Sports</a></li>
+                </ul>
+            </li>
         </ul>
     </div>
     <script>
@@ -152,16 +162,16 @@
                 <div class="box">
                     <div class="boxInner">
                         <a href="Academies/AVPAT.html">
-                        <img src="Pictures\AVPA-T2.jpg" />
-                        <div class="titleBox">Academy of Visual Performing Arts - Theater Concentration</div>
+                            <img src="Pictures\AVPA-T2.jpg" />
+                            <div class="titleBox">Academy of Visual Performing Arts - Theater Concentration</div>
                         </a>
                     </div>
                 </div>
                 <div class="box">
                     <div class="boxInner">
                         <a href="Academies/AVPAV.html">
-                        <img src="Pictures\AVPA-V2.png" />
-                        <div class="titleBox">Academy of Visual Performing Arts - Visual Concentration</div>
+                            <img src="Pictures\AVPA-V2.png" />
+                            <div class="titleBox">Academy of Visual Performing Arts - Visual Concentration</div>
                         </a>
                     </div>
                 </div>
@@ -269,17 +279,18 @@
                 document.getElementById("preload-01").style.background = "url('Pictures/Copy of 06_O3_DSC_8248 music orchestra.jpg') no-repeat -9999px -9999px";
                 document.getElementById("preload-02").style.background = "url('Pictures/Copy%20of%20754_15820967062_o%20Global%20Education.jpg') no-repeat -9999px -9999px";
                 document.getElementById("preload-03").style.background = "url('Pictures/Copy%20of%20Aishwarya%20Raja%20Senior%" +
-                        "20Experience%20at%20Lundbeck%20Research%20USA%20(Mentor%20Noel%20Boyle).jpg') no-repeat -9999px -9999px";
+                    "20Experience%20at%20Lundbeck%20Research%20USA%20(Mentor%20Noel%20Boyle).jpg') no-repeat -9999px -9999px";
                 document.getElementById("preload-04").style.background = "url('Pictures/Copy%20of%20IMG_0878%20research.JPG') no-repeat -9999px -9999px";
                 document.getElementById("preload-05").style.background = "url('Pictures/Pictures/Copy%20of%20IMG_4083%202%20atcs.JPG'') no-repeat -9999px -9999px";
             }
         }
+
         function addLoadEvent(func) {
             var oldonload = window.onload;
             if (typeof window.onload != 'function') {
                 window.onload = func;
             } else {
-                window.onload = function() {
+                window.onload = function () {
                     if (oldonload) {
                         oldonload();
                     }
@@ -302,7 +313,7 @@
             'Pictures/Copy%20of%20IMG_0908%20amst.JPG', 'Pictures/Copy%20of%20IMG_4083%202%20atcs.JPG');
         var nextimage = Math.floor(Math.random() * 5) + 1
             // parallaxBg.css('transition', 'background 1s linear');
-            parallaxBg.css('background-image', 'url("' + images[nextimage] + '")')
+        parallaxBg.css('background-image', 'url("' + images[nextimage] + '")')
     </script>
 
 </body>
