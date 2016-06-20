@@ -33,19 +33,25 @@
             }, 0);
         }, false);
     </script>
-
-
-    <div class="background-image-container">
-        <div class="background-image-content">
-            <div class="background-bg">
-                <h2 style="padding-bottom:0%;">WELCOME TO THE</h2>
+ 
+ <div class="header">
+  <div class="slidejs-container">
+    <div id="slides">      
+      <img src="Pictures/Copy of 06_O3_DSC_8248 music orchestra.jpg">
+      <img src="Pictures/hackBCA.png">
+      <img src="Pictures/Copy of IMG_4083 2 atcs.JPG">
+      <img src="Copy of image_15638297158_o Global Education.jpg">
+    </div>
+  </div>
+  <div class="container" style="position: relative; z-index:20;padding:1.5em;">
+    <h2 style="padding-bottom:0%;">WELCOME TO THE</h2>
                 <h1 style="padding: 0px;">BERGEN COUNTY ACADEMIES</h1>
                 <h2 style="padding-top:2.5%">IF YOU CAN DREAM IT, YOU CAN DO IT!</h2></div>
             <section id="section03" class="demo">
                 <a href="#academies"><span></span></a>
             </section>
-        </div>
-    </div>
+  </div>  
+  </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
     <script>
         $(document).ready(function () {
@@ -255,17 +261,38 @@
         </ul>
     </footer>
 
-<script src="http://code.jquery.com/jquery-latest.min.js"></script>
-  <script src="jquery.slides.min.js"></script>
-
+ <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+  <script src="js/jquery.slides.js"></script>
   <script>
-    $(function(){
-      $("#slides").slidesjs({
-        width: 940,
-        height: 528
-      });
+    $(function() {
+      $('#slides').slidesjs({
+		start: 1,
+		navigation: {
+		  active: false
+		},
+		pagination: {
+		  active: false
+		},
+		play: {
+		  active: false,
+		  effect: "fade",
+		  interval: 5000,
+		  auto: true
+		}
+	  });
     });
-  </script>
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-2036249-12']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
 
 </body>
 
