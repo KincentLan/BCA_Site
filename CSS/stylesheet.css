@@ -54,6 +54,7 @@ img.banner {
 }
 
 footer {
+    padding: 10px;
     color: white;
     text-decoration: none;
     text-align: right;
@@ -73,7 +74,7 @@ footer a:visited {
 footer {
     position: fixed;
     bottom: 0;
-    height: 4%;
+    height: 3%;
     width: 100%;
     background-color: #000000;
     opacity: 90;
@@ -87,7 +88,7 @@ footer {
 }
 
 footer li {
-    font-family: 'Roboto', serif;
+    font-family: 'Oswald', sans-serif;
     font-size: 1.2em;
     z-index: 200;
 }
@@ -102,7 +103,7 @@ footer li {
         z-index: 200;
         color: black;
     }
-    /* Option 1 - Display Inline */
+    / Option 1 - Display Inline /
     .footer li {
         display: inline-block;
     }
