@@ -15,7 +15,11 @@
 }
 
 .parallax-bg {
+<<<<<<< HEAD
+    padding: 19% 0;
+=======
     padding: 16% 0;
+>>>>>>> origin/gh-pages
     background-size: cover;
     background-attachment: fixed;
     -webkit-transition: all 0.2s ease;
