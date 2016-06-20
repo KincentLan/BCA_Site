@@ -33,10 +33,11 @@
             }, 0);
         }, false);
     </script>
+    
  <div id="slides">
     <img src="Pictures/Copy of 06_O3_DSC_8248 music orchestra.jpg">
     <img src="Pictures/Copy of IMG_0670 AEDT.JPG">
-    <img src="Pictures/ATCS2">
+    <img src="Pictures/ATCS2.jpg">
   </div>
   
    <style>
@@ -46,17 +47,23 @@
     }
   </style>
   
-   <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
   <script src="jquery.slides.min.js"></script>
 
-  <script>
-    $(function(){
-      $("#slides").slidesjs({
-        width: 940,
-        height: 528
-      });
-    });
-  </script>
+$(function(){
+  $("#slides").slidesjs({
+    navigation: {
+      active: true,
+        // [boolean] Generates next and previous buttons.
+        // You can set to false and use your own buttons.
+        // User defined buttons must have the following:
+        // previous button: class="slidesjs-previous slidesjs-navigation"
+        // next button: class="slidesjs-next slidesjs-navigation"
+      effect: "slide"
+        // [string] Can be either "slide" or "fade".
+    }
+  });
+});
   
   
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
