@@ -38,7 +38,7 @@ h3 {
 img.right {
     float: right;
     padding-right: 6%;
-    max-height: 300px;
+    max-height: 275px;
     height: auto;
     width: auto;
 }
@@ -59,7 +59,6 @@ img.banner {
     max-width: 700px;
     width: auto;
     height: auto;
-    padding-right: 5%;
 }
 
 footer {
