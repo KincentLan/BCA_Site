@@ -62,7 +62,7 @@ img.banner {
     height: auto;
 }
 
-a {
+.quicklinks a {
     color: white;
     text-decoration: none;
     -webkit-transition: all 0.3s ease;
@@ -72,11 +72,11 @@ a {
     transition: all 0.3s ease;
 }
 
-a:hover {
-    color: INSERT-COLOR;
+.quicklinks h2 a:hover {
+    color: aqua;
 }
 
-a:visited {
+.quicklinks a:visited {
     color: white;
 }
 
