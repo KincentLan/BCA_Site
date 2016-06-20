@@ -133,5 +133,8 @@ footer li {
 }
 
 .quicklinks {
-
+    background-color: #3F3F3F;
+    color: #FFFFFF;
+    height: 500%;
+    text-decoration: none;
 }
