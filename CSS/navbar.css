@@ -41,16 +41,28 @@
     top: 60px;
     visibility: hidden;
     z-index: 1;
+    background-color: #FFFFFF;
+    color: #000000;
     -webkit-transition: all .25s ease;
     -moz-transition: all .25s ease;
     -ms-transition: all .25s ease;
     -o-transition: all .25s ease;
     transition: all .25s ease;
 }
-.nav li:hover ul {
+
+.nav li ul li {
+    color: #000000;
+}
+
+.nav li:hover ul{
     opacity: 1;
     top: 12.5%;
     visibility: visible;
+    color: #000000;
+}
+
+.nav li:hover ul>li{
+    color: #000000;
 }
 
 @-webkit-keyframes sdb03 {
@@ -85,16 +97,13 @@
     }
 }
 
-.slideDown{
+.slideDown {
     animation-name: slideDown;
     -webkit-animation-name: slideDown;
-
     animation-duration: 1s;
     -webkit-animation-duration: 1s;
-
     animation-timing-function: ease;
     -webkit-animation-timing-function: ease;
-
     visibility: visible !important;
 }
 
@@ -102,16 +111,16 @@
     0% {
         transform: translateY(-100%);
     }
-    50%{
+    50% {
         transform: translateY(8%);
     }
-    65%{
+    65% {
         transform: translateY(-4%);
     }
-    80%{
+    80% {
         transform: translateY(4%);
     }
-    95%{
+    95% {
         transform: translateY(-2%);
     }
     100% {
@@ -123,16 +132,16 @@
     0% {
         -webkit-transform: translateY(-100%);
     }
-    50%{
+    50% {
         -webkit-transform: translateY(8%);
     }
-    65%{
+    65% {
         -webkit-transform: translateY(-4%);
     }
-    80%{
+    80% {
         -webkit-transform: translateY(4%);
     }
-    95%{
+    95% {
         -webkit-transform: translateY(-2%);
     }
     100% {
