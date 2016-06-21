@@ -11,6 +11,7 @@
     -moz-opacity: 0.6;
     width: 100%;
     z-index: 200;
+    border-bottom: 1px solid yellow;
 }
 
 .logo {
@@ -42,12 +43,14 @@
     z-index: 1;
     background-color: #FFFFFF;
     color: #000000;
+    border-bottom: none;
     -webkit-transition: all .25s ease;
     -moz-transition: all .25s ease;
     -ms-transition: all .25s ease;
     -o-transition: all .25s ease;
     transition: all .25s ease;
 }
+
 
 
 .nav li ul li a {
