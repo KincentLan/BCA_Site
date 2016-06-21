@@ -75,6 +75,7 @@ img.banner {
     -ms-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
+    vertical-align: top;
 }
 
 .quicklinks h2 a:hover {
@@ -102,7 +103,7 @@ img.banner {
     text-decoration: none;
 }
 
-.sections{
+.sections {
     margin-left: 2%;
     margin-top: 5%;
 }
@@ -132,7 +133,7 @@ img.banner {
     font-size: 200%;
 }
 
-.apply-image-sections{
+.apply-image-sections {
     background-color: #f8f8f9;
 }
 
@@ -143,3 +144,4 @@ img.banner {
     margin-left: 1%;
     margin-top: 5%;
 }
+
