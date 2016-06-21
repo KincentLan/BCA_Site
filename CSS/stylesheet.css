@@ -3,7 +3,6 @@ body {
     padding: 0;
     background: #FFFFFF;
 }
-
 h1 {
     display: block;
     font-family: "Oswald", sans-serif;
@@ -11,34 +10,28 @@ h1 {
     padding: 2%;
     padding-bottom: -1%;
 }
-
 h2 {
     display: block;
     font-family: "Oswald", sans-serif;
     padding: 2%;
     padding-bottom: 0;
 }
-
 h3 {
     display: block;
     font-family: "Oswald", sans-serif;
     padding: 2%;
     padding-top: 1%;
 }
-
 .Accolades {
     background-color: #f8f8f9;
 }
-
 .academies img {
     width: 25%;
     height: 100%;
 }
-
 .academies li {
     display: inline-block;
 }
-
 img.right {
     float: right;
     margin-top: 2%;
@@ -47,7 +40,6 @@ img.right {
     height: auto;
     width: auto;
 }
-
 img.ri {
     float: right;
     max-width: 250px;
@@ -55,7 +47,6 @@ img.ri {
     margin-right: 8%;
     margin-top: 2%;
 }
-
 img.banner {
     margin-right: 2%;
     float: right;
@@ -66,7 +57,6 @@ img.banner {
     width: auto;
     height: auto;
 }
-
 .quicklinks a {
     color: #FFFFFF;
     text-decoration: none;
@@ -76,15 +66,12 @@ img.banner {
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
-
 .quicklinks h2 a:hover {
     color: #00FFFF;
 }
-
 .quicklinks a:visited {
     color: white;
 }
-
 .apply-sections li {
     display: inline-block;
     padding-right: 4%;
@@ -94,47 +81,39 @@ img.banner {
     vertical-align: top;
     margin-left: 4%;
 }
-
 .quicklinks {
     background-color: #3F3F3F;
     color: #FFFFFF;
     height: 500%;
     text-decoration: none;
 }
-
 .sections{
     margin-left: 2%;
     margin-top: 5%;
 }
-
 .sections li {
     display: inline-block;
     padding-bottom: 10%;
     padding-right: 4%;
     width: 20%;
 }
-
 .application-div {
     background-color: #1A1A1A;
     color: #FFFFFF;
     text-align: center;
     padding: 10%;
 }
-
 .application-div h1 {
     font-family: "Oswald", sans-serif;
     font-size: 400%;
 }
-
 .application-div h2 {
     font-family: "Roboto", sans-serif;
     font-size: 200%;
 }
-
 .apply-image-sections{
     background-color: #f8f8f9;
 }
-
 .apply-image-sections li {
     display: inline-block;
     padding-bottom: 5%;
