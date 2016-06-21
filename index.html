@@ -23,10 +23,10 @@
             <li class="Home"><a href="index.html">Home</a></li>
             <li class="About"><a href="#">About</a>
                 <ul class="dropdown">
-                    <li><a href="#">Clubs</a></li>
-                    <li><a href="#">Electives</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">Sports</a></li>
+                    <li><a href="UnderNav/Clubs.html">Clubs</a></li>
+                    <li><a href="UnderNav/Electives.html">Electives</a></li>
+                    <li><a href="UnderNav/Projects.html">Projects</a></li>
+                    <li><a href="UnderNav/Sports.html">Sports</a></li>
                 </ul>
             </li>
             <li class="Students"><a href="#">Students</a>
@@ -34,7 +34,7 @@
                 <li style="padding-right: 2%;"><a href="https://ps01.bergen.org/public/" target="_blank">PowerSchool</a></li>
                 <li><a href="https://bca.schoology.com/login/ldap?&school=11897239" target="_blank">Schoology</a></li>
             </ul></li>
-            <li class="contact"><a href="#">Contact</a></li>
+            <li class="contact"><a href="contact.html">Contact</a></li>
         </ul>
     </div>
     <script>
@@ -242,7 +242,8 @@
 
             <li>
                 <div class="section">
-                    <h2><a href="#">Location</a></h2>
+                    <h2><a href="https://www.google.com/maps/dir/''/maps+bergen+county+academies/data=!4m5!4m4!1m0!1m2!1m1!1s0x89c2fa74ecafb78d:0x56dae96ee3b758b?sa=X&ved=0ahUKEwj29bH3nLnNAhUNRFIKHcazC_UQ9RcIjwEwDA"
+                    target="_blank">Location</a></h2>
                     <h3>Do you need to know how to get here?
                     Click here for google maps.</h3>
                 </div>
@@ -250,7 +251,7 @@
 
             <li>
                 <div class="section">
-                    <h2><a href="#">Contact Us</a></h2>
+                    <h2><a href="contact.html">Contact Us</a></h2>
                     <h3>Got a burning question you'd like to ask?
                     Click here to contact us.</h3>
                 </div>
@@ -276,31 +277,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
     <script src="navbar.js"></script>
     <script type="text/javascript">
-        function preloader() {
-            if (document.getElementById) {
-                document.getElementById("preload-01").style.background = "url('Pictures/Copy of 06_O3_DSC_8248 music orchestra.jpg') no-repeat -9999px -9999px";
-                document.getElementById("preload-02").style.background = "url('Pictures/Copy%20of%20754_15820967062_o%20Global%20Education.jpg') no-repeat -9999px -9999px";
-                document.getElementById("preload-03").style.background = "url('Pictures/Copy%20of%20Aishwarya%20Raja%20Senior%" +
-                    "20Experience%20at%20Lundbeck%20Research%20USA%20(Mentor%20Noel%20Boyle).jpg') no-repeat -9999px -9999px";
-                document.getElementById("preload-04").style.background = "url('Pictures/Copy%20of%20IMG_0878%20research.JPG') no-repeat -9999px -9999px";
-                document.getElementById("preload-05").style.background = "url('Pictures/Pictures/Copy%20of%20IMG_4083%202%20atcs.JPG'') no-repeat -9999px -9999px";
-            }
-        }
-
-        function addLoadEvent(func) {
-            var oldonload = window.onload;
-            if (typeof window.onload != 'function') {
-                window.onload = func;
-            } else {
-                window.onload = function () {
-                    if (oldonload) {
-                        oldonload();
-                    }
-                    func();
-                }
-            }
-        }
-
         var parallaxBg = $('div.background-bg');
         (function () {
             var documentEl = $(document);
@@ -309,14 +285,13 @@
                 parallaxBg.css('background-position', '0' + -currScrollPos / 4 + 'px');
             });
         })();
-        var images = new Array('Pictures/Copy of 06_O3_DSC_8248 music orchestra.jpg', 'Pictures/',
-            'Pictures/Copy%20of%20Aishwarya%20Raja%20Senior%20Experience%20at%20Lundbeck%20Research%20USA%20(Mentor%20Noel%20Boyle).jpg',
-            'Pictures/Copy%20of%20Baseball%20VoTech%20Champs%20sports.JPG', 'Pictures/ATCS2.JPG',
-            'Pictures/Copy%20of%20IMG_0908%20amst.JPG', 'Pictures/Copy%20of%20IMG_4083%202%20atcs.JPG');
-        var nextimage = Math.floor(Math.random() * 6) + 1
-            // parallaxBg.css('transition', 'background 1s linear');
+        var images = new Array('Pictures/Copy of 06_O3_DSC_8248 music orchestra.jpg', 'Pictures/Copy%20of%20754_15820967062_o%20Global%20Education.jpg', 'Pictures/Copy of IMG_0670 AEDT.JPG',
+                'Pictures/Copy%20of%20Baseball%20VoTech%20Champs%20sports.JPG', 'Pictures/Copy%20of%20IMG_0878%20research.JPG', 'Pictures/AVPA-T2.jpg', 'Pictures/ATCS2.JPG');
+        var nextimage = Math.floor(Math.random() * 7) ;
+        // parallaxBg.css('transition', 'background 1s linear');
         parallaxBg.css('background-image', 'url("' + images[nextimage] + '")')
     </script>
+
 
 </body>
 

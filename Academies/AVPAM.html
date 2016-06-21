@@ -15,26 +15,34 @@
 </head>
 
 <body>
-<!-- nav bar -->
-<div class="nav" width=2%>
+<div class="nav">
     <ul id="slideInDown">
         <div class="logo">
             <li><b>Bergen</b> County Academies</li>
         </div>
         <li class="Home"><a href="../index.html">Home</a></li>
-        <li class="About"><a href="#">About</a></li>
-        <li class="Students"><a href="#">Students</a></li>
+        <li class="About"><a href="#">About</a>
+            <ul class="dropdown">
+                <li><a href="../UnderNav/Clubs.html">Clubs</a></li>
+                <li><a href="../UnderNav/Electives.html">Electives</a></li>
+                <li><a href="../UnderNav/Projects.html">Projects</a></li>
+                <li><a href="../UnderNav/Sports.html">Sports</a></li>
+            </ul>
+        </li>
+        <li class="Students"><a href="#">Students</a>
+            <ul>
+                <li style="padding-right: 2%;"><a href="https://ps01.bergen.org/public/" target="_blank">PowerSchool</a></li>
+                <li><a href="https://bca.schoology.com/login/ldap?&school=11897239" target="_blank">Schoology</a></li>
+            </ul></li>
         <li class="contact"><a href="#">Contact</a></li>
     </ul>
-</div>
-<script>
+</div><script>
     document.addEventListener('DOMContentLoaded', function () {
         setTimeout(function () {
             document.getElementById('slideInDown').className = 'slideDown';
         }, 0);
     }, false);
 </script>
-
 
 
 <div class="background-image-container">
@@ -52,17 +60,21 @@
     $(document).ready(function () {
         // Add smooth scrolling to all links
         $("a").on('click', function (event) {
+
             // Make sure this.hash has a value before overriding default behavior
             if (this.hash !== "") {
                 // Prevent default anchor click behavior
                 event.preventDefault();
+
                 // Store hash
                 var hash = this.hash;
+
                 // Using jQuery's animate() method to add smooth page scroll
                 // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
                 $('html, body').animate({
                     scrollTop: $(hash).offset().top
                 }, 800, function () {
+
                     // Add hash (#) to URL when done scrolling (default click behavior)
                     window.location.hash = hash;
                 });
@@ -136,6 +148,7 @@
         if ('ontouchstart' in window) {
             // Set the correct body class
             $('body').removeClass('no-touch').addClass('touch');
+
             // Add the touch toggle to show text
             $('div.boxInner img').click(function () {
                 $(this).closest('.boxInner').toggleClass('touchFocus');
@@ -150,7 +163,7 @@
     <ul class="sections">
         <li>
             <div class="section">
-                <h2><a href="Academies/apply.html">Apply Now</a></h2>
+                <h2><a href="../apply.html">Apply Now</a></h2>
                 <h3>Are you interested in applying to this school?
                     Click here to apply.</h3>
             </div>
@@ -200,22 +213,11 @@
             parallaxBg.css('background-position', '0' + -currScrollPos / 4 + 'px');
         });
     })();
-    var images = new Array('../Pictures/Copy of 06_O3_DSC_8248 music orchestra.jpg', '../Pictures/Copy%20of%20754_15820967062_o%20Global%20Education.jpg',
-            '../Pictures/Copy%20of%20Aishwarya%20Raja%20Senior%20Experience%20at%20Lundbeck%20Research%20USA%20(Mentor%20Noel%20Boyle).jpg',
-            '../Pictures/Copy%20of%20Baseball%20VoTech%20Champs%20sports.JPG', '../Pictures/Copy%20of%20IMG_0878%20research.JPG',
-            '../Pictures/Copy%20of%20IMG_0908%20amst.JPG', 'Pictures/Copy%20of%20IMG_4083%202%20atcs.JPG');
-    var nextimage = Math.floor(Math.random() * 5) + 0;
-    doSlideshow();
-    function doSlideshow() {
-        if (nextimage >= images.length) {
-            nextimage = 0;
-        }
-        // parallaxBg.css('transition', 'background 1s linear');
-        parallaxBg.css('background-image', 'url("' + images[nextimage] + '")').fadeIn(9000, function () {
-            // parallaxBg.css('transition','all 0.2 ease');
-            setTimeout(doSlideshow, 5000);
-        });
-    }
+    var images = new Array('../Pictures/Copy of 06_O3_DSC_8248 music orchestra.jpg',
+            '../Pictures/AVPA-M2.jpg', '../Pictures/ATCS2.JPG');
+    var nextimage = Math.floor(Math.random() * 6) ;
+    // parallaxBg.css('transition', 'background 1s linear');
+    parallaxBg.css('background-image', 'url("' + images[nextimage] + '")')
 </script>
 
 </body>

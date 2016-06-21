@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/stylesheet.css"/>
+    <link rel="stylesheet" href="CSS/Parallax.css"/>
+    <link rel="stylesheet" href="CSS/navbar.css"/>
+    <link rel="stylesheet" href="CSS/Images.css"/>
+    <link rel="stylesheet" href="CSS/footer.css"/>
+    <link rel="icon" href="Pictures/bcalogo.png">
+    <meta charset="UTF-8">
+    <title>Application</title>
+</head>
+
+<body>
+<div class="nav" width=2%>
+    <ul id="slideInDown">
+        <div class="logo">
+            <li><b>Bergen</b> County Academies</li>
+        </div>
+        <li class="Home"><a href="index.html">Home</a></li>
+        <li class="About"><a href="#">About</a></li>
+        <li class="Students"><a href="#">Students</a></li>
+        <li class="contact"><a href="#">Contact</a></li>
+    </ul>
+</div>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        setTimeout(function () {
+            document.getElementById('slideInDown').className = 'slideDown';
+        }, 0);
+    }, false);
+</script>
+<div class="application" id="application">
+    <div class="application-div">
+        <h1>Contact</h1>
+        <h2>Need Help? Contact is always here.</h2>
+    </div>
+    <ul class="apply-sections">
+        <li>
+            <div class="apply-section">
+                <h2>Application Process</h2>
+                <h3>Do you need help with the admission process? If so contact
+                    this number - </h3>
+            </div>
+        </li>
+        <li>
+            <div class="apply-section">
+                <h2>Clubs, Projects, Electives, etc.</h2>
+                <h3>Do you have any questions about any clubs, electives, projects
+                    sports or more? If so contact this number - </h3>
+            </div>
+        </li>
+        <li>
+            <div class="apply-section">
+                <h2>School</h2>
+                <h3>Have any questions about the school in general? If so contact
+                    this number - </h3>
+            </div>
+        </li>
+        <li>
+            <div class="apply-section">
+                <h2>Registration</h2>
+                <h3>Have any questions about registration? If so contact this number
+                    -</h3>
+            </div>
+        </li>
+    </ul>
+</div>
+
+</body>
+
+</html>

@@ -15,17 +15,28 @@
 </head>
 
 <body>
-    <div class="nav" width=2%>
-        <ul id="slideInDown">
-            <div class="logo">
-                <li><b>Bergen</b> County Academies</li>
-            </div>
-            <li class="Home"><a href="index.html">Home</a></li>
-            <li class="About"><a href="#">About</a></li>
-            <li class="Students"><a href="#">Students</a></li>
-            <li class="contact"><a href="#">Contact</a></li>
-        </ul>
-    </div>
+<div class="nav">
+    <ul id="slideInDown">
+        <div class="logo">
+            <li><b>Bergen</b> County Academies</li>
+        </div>
+        <li class="Home"><a href="index.html">Home</a></li>
+        <li class="About"><a href="#">About</a>
+            <ul class="dropdown">
+                <li><a href="UnderNav/Clubs.html">Clubs</a></li>
+                <li><a href="UnderNav/Electives.html">Electives</a></li>
+                <li><a href="UnderNav/Projects.html">Projects</a></li>
+                <li><a href="UnderNav/Sports.html">Sports</a></li>
+            </ul>
+        </li>
+        <li class="Students"><a href="#">Students</a>
+            <ul>
+                <li style="padding-right: 2%;"><a href="https://ps01.bergen.org/public/" target="_blank">PowerSchool</a></li>
+                <li><a href="https://bca.schoology.com/login/ldap?&school=11897239" target="_blank">Schoology</a></li>
+            </ul></li>
+        <li class="contact"><a href="#">Contact</a></li>
+    </ul>
+</div>
     <script>
         document.addEventListener('DOMContentLoaded', function () {
             setTimeout(function () {
@@ -36,7 +47,7 @@
     <div class="application" id="application">
         <div class="application-div">
             <h1>Application</h1>
-            <h2>The Essential Step to a Bigger Goal</h2>
+            <h2>The First Essential Step to a Bigger Goal</h2>
         </div>
         <ul class="apply-sections">
             <li>
