@@ -85,6 +85,15 @@ img.banner {
     color: white;
 }
 
+.apply-sections li {
+    display: inline-block;
+    padding-right: 4%;
+    padding-left: 4%;
+    padding-top: 4%;
+    width: 33%;
+    vertical-align: top;
+    margin-left: 4%;
+}
 
 .quicklinks {
     background-color: #3F3F3F;
@@ -102,4 +111,34 @@ img.banner {
     display: inline-block;
     padding-bottom: 10%;
     padding-right: 4%;
+    width: 20%;
+}
+
+.application-div {
+    background-color: #1A1A1A;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10%;
+}
+
+.application-div h1 {
+    font-family: "Oswald", sans-serif;
+    font-size: 400%;
+}
+
+.application-div h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 200%;
+}
+
+.apply-image-sections{
+    background-color: #f8f8f9;
+}
+
+.apply-image-sections li {
+    display: inline-block;
+    padding-bottom: 5%;
+    padding-left: 7%;
+    margin-left: 2%;
+    margin-top: 5%;
 }
