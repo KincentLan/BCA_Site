@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="dddaf3ca-6d3e-4d44-8db5-12adac62d021" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/UnderNav/Projects.html" afterPath="$PROJECT_DIR$/UnderNav/Projects.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/UnderNav/Sports.html" afterPath="$PROJECT_DIR$/UnderNav/Sports.html" />
     </list>
     <ignored path="BCA_Site.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,7 +25,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="338">
@@ -45,6 +44,16 @@
                 <element signature="n#style#0;n#h2#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Sports.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UnderNav/Sports.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="406">
+              <caret line="174" column="48" selection-start-line="174" selection-start-column="48" selection-end-line="174" selection-end-column="48" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -89,6 +98,26 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Electives.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UnderNav/Electives.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-897">
+              <caret line="92" column="114" selection-start-line="92" selection-start-column="114" selection-end-line="92" selection-end-column="114" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Clubs.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/UnderNav/Clubs.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-136">
+              <caret line="132" column="49" selection-start-line="131" selection-start-column="33" selection-end-line="132" selection-end-column="49" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="AAST.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Academies/AAST.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -110,36 +139,6 @@
               <folding>
                 <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AEDT.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Academies/AEDT.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="386">
-              <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ACAHA.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Academies/ACAHA.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="509">
-              <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ABFIB.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Academies/ABFIB.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -181,7 +180,6 @@
         <option value="$PROJECT_DIR$/Academies/AEDT.html" />
         <option value="$PROJECT_DIR$/UnderNav/Clubs.html" />
         <option value="$PROJECT_DIR$/UnderNav/Electives.html" />
-        <option value="$PROJECT_DIR$/UnderNav/Sports.html" />
         <option value="$PROJECT_DIR$/Academies/AAST.html" />
         <option value="$PROJECT_DIR$/Academies/AVPAT.html" />
         <option value="$PROJECT_DIR$/Academies/AVPAM.html" />
@@ -193,6 +191,7 @@
         <option value="$PROJECT_DIR$/apply.html" />
         <option value="$PROJECT_DIR$/UnderNav/Projects.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/UnderNav/Sports.html" />
       </list>
     </option>
   </component>
@@ -391,7 +390,7 @@
       <workItem from="1466420913157" duration="11913000" />
       <workItem from="1466505443697" duration="6821000" />
       <workItem from="1466514679852" duration="1744000" />
-      <workItem from="1466520704456" duration="3228000" />
+      <workItem from="1466520704456" duration="3368000" />
     </task>
     <task id="LOCAL-00001" summary="CSS">
       <created>1466140233282</created>
@@ -659,11 +658,18 @@
       <option name="project" value="LOCAL" />
       <updated>1466521171095</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="CSS">
+      <created>1466527670525</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1466527670525</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70446000" />
+    <option name="totallyTimeSpent" value="70586000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -867,35 +873,14 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/UnderNav/Electives.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="92" column="114" selection-start-line="92" selection-start-column="114" selection-end-line="92" selection-end-column="114" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Pictures/Copy of IMG_0932 B_W visual.JPG">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/UnderNav/Clubs.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-690">
-          <caret line="100" column="102" selection-start-line="100" selection-start-column="102" selection-end-line="100" selection-end-column="102" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Pictures/Copy of 2014-10-27_14.18.11 (1) sports.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UnderNav/Sports.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="678">
-          <caret line="139" column="11" selection-start-line="139" selection-start-column="11" selection-end-line="139" selection-end-column="11" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Academies/AVPAV.html">
@@ -1077,14 +1062,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/UnderNav/Projects.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="593">
-          <caret line="182" column="48" selection-start-line="182" selection-start-column="48" selection-end-line="182" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="338">
@@ -1103,6 +1080,38 @@
             <element signature="n#style#0;n#h2#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UnderNav/Sports.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="174" column="48" selection-start-line="174" selection-start-column="48" selection-end-line="174" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UnderNav/Projects.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="593">
+          <caret line="182" column="48" selection-start-line="182" selection-start-column="48" selection-end-line="182" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UnderNav/Electives.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-897">
+          <caret line="92" column="114" selection-start-line="92" selection-start-column="114" selection-end-line="92" selection-end-column="114" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UnderNav/Clubs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-136">
+          <caret line="132" column="49" selection-start-line="131" selection-start-column="33" selection-end-line="132" selection-end-column="49" />
+          <folding />
         </state>
       </provider>
     </entry>
