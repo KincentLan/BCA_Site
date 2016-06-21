@@ -54,14 +54,18 @@
     color: #000000;
 }
 
-.nav li:hover ul{
+.nav li ul li a {
+    color: #000000;
+}
+
+.nav li:hover ul {
     opacity: 1;
     top: 12.5%;
     visibility: visible;
     color: #000000;
 }
 
-.nav li:hover ul>li{
+.nav li:hover ul>li {
     color: #000000;
 }
 
